@@ -738,7 +738,7 @@ def test_sort_event_summary():
 
 def test_uid_missing():
     event_uid = _get_text("event_uid_missing")
-    assert event_uid.uid.startswith('khal-vevent-without-uid-')
+    assert event_uid.uid.startswith("khal-vevent-without-uid-")
 
 
 def test_create_timezone_in_future():

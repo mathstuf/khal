@@ -350,7 +350,7 @@ class Event:
         try:
             return self._vevents[self.ref]["UID"]
         except KeyError:
-            return f'khal-vevent-without-uid-{id(self.ref)}'
+            return f"khal-vevent-without-uid-{id(self.ref)}"
 
     @property
     def organizer(self) -> str:
